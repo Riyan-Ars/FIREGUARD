@@ -1,0 +1,31 @@
+{
+  "name": "fireguard-backend",
+  "version": "1.0.0",
+  "description": "FIREGUARD Environmental Gateway Backend API",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "keywords": [
+    "fireguard",
+    "hotspots",
+    "air-quality",
+    "nasa-firms",
+    "open-meteo"
+  ],
+  "author": "FIREGUARD Team",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
